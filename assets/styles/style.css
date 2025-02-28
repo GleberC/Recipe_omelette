@@ -1,0 +1,187 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/***  VARIABLES & THEMES ***/
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+}
+
+body {
+    
+    background-color: var(--Stone-100);
+    font-family: "Outfit", serif;
+    color: var(--Stone-900);
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+main {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    width: 700px;
+    height: 1520px;
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-optical-sizing: auto; 
+}
+
+
+
+#photo_recipe {
+    width: 620px;
+    height: 300px;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+
+}
+
+h1.title_font {
+    margin-bottom: 2rem;
+   
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+
+.prep_time {
+    background-color: var(--Rose-50);
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+
+}
+
+.prep_time h3 {
+    color: var(--Rose-800);
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.prep_time ul {
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.title_font {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    color: var(--Brown-800);
+    margin-bottom: .5rem;
+}
+
+.ingredient {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--Stone-150);
+}
+
+.intruction {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--Stone-150);
+}
+
+.formatation ul {
+    margin-left: 1rem;
+
+}
+
+li {
+    margin-bottom: .8rem;
+
+
+}
+
+.formatation ol {
+    margin-left: 1rem;
+}
+
+
+td {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--Stone-150);
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 15rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+
+/* retira ultima borda */
+tr:last-child td {
+    border-bottom: none;
+}
+
+
+.value {
+    color: var(--Brown-800);
+    font-weight: bold;
+}
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.attribution a {
+    color: var(--Rose-800)
+}
+
+ @media (max-width:700px) {
+
+body{
+width: min-content; 
+
+} 
+
+    main {
+        margin: 0;
+        padding: 0;
+
+
+    }
+
+    #photo_recipe {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+    }
+
+    .container_text {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}  
