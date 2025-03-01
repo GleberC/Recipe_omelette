@@ -7,6 +7,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -22,7 +23,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ![](./assets/images/screenshot_page.jpg/)
 
+### Links
 
+- Solution URL: [recipe github](https://github.com/GleberC/Recipe_omelette)
+- Live Site URL: [recipe](https://social-links-seven-dusky.vercel.app/)
 
 
 
