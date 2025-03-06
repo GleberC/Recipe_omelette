@@ -165,7 +165,7 @@ width: min-content;
 } 
 
     main {
-        font-size: calc(.8rem + 1vw);
+        font-size: clamp(.9rem, 0.8rem + 1vw, 3rem);
         margin: 0;
         padding: 0;
         padding-bottom: 2rem;
