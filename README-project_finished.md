@@ -26,7 +26,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [recipe github](https://github.com/GleberC/Recipe_omelette)
-- Live Site URL: [recipe](https://social-links-seven-dusky.vercel.app/)
+- Live Site URL: [recipe](https://recipe-omelette-six.vercel.app/)
 
 
 
